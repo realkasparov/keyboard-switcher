@@ -15,6 +15,8 @@
 		69FE2EFB2C1B823D00D16303 /* KeyboardSwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FE2EFA2C1B823D00D16303 /* KeyboardSwitcherTests.swift */; };
 		69FE2F052C1B823E00D16303 /* KeyboardSwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FE2F042C1B823E00D16303 /* KeyboardSwitcherUITests.swift */; };
 		69FE2F072C1B823E00D16303 /* KeyboardSwitcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FE2F062C1B823E00D16303 /* KeyboardSwitcherUITestsLaunchTests.swift */; };
+		69FE2F182C1B9AE400D16303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FE2F172C1B9AE400D16303 /* AppDelegate.swift */; };
+		69FE2F1A2C1B9B3B00D16303 /* StatusBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FE2F192C1B9B3B00D16303 /* StatusBarMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		69FE2F002C1B823E00D16303 /* KeyboardSwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardSwitcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FE2F042C1B823E00D16303 /* KeyboardSwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSwitcherUITests.swift; sourceTree = "<group>"; };
 		69FE2F062C1B823E00D16303 /* KeyboardSwitcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSwitcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69FE2F172C1B9AE400D16303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69FE2F192C1B9B3B00D16303 /* StatusBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		69FE2EE52C1B823C00D16303 /* KeyboardSwitcher */ = {
 			isa = PBXGroup;
 			children = (
+				69FE2F172C1B9AE400D16303 /* AppDelegate.swift */,
 				69FE2EE62C1B823C00D16303 /* KeyboardSwitcherApp.swift */,
 				69FE2EE82C1B823C00D16303 /* ContentView.swift */,
 				69FE2EEA2C1B823C00D16303 /* Item.swift */,
 				69FE2EEC2C1B823D00D16303 /* Assets.xcassets */,
 				69FE2EF12C1B823D00D16303 /* KeyboardSwitcher.entitlements */,
 				69FE2EEE2C1B823D00D16303 /* Preview Content */,
+				69FE2F192C1B9B3B00D16303 /* StatusBarMenu.swift */,
 			);
 			path = KeyboardSwitcher;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FE2F1A2C1B9B3B00D16303 /* StatusBarMenu.swift in Sources */,
+				69FE2F182C1B9AE400D16303 /* AppDelegate.swift in Sources */,
 				69FE2EE92C1B823C00D16303 /* ContentView.swift in Sources */,
 				69FE2EEB2C1B823C00D16303 /* Item.swift in Sources */,
 				69FE2EE72C1B823C00D16303 /* KeyboardSwitcherApp.swift in Sources */,
@@ -424,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = KeyboardSwitcher/KeyboardSwitcher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -452,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = KeyboardSwitcher/KeyboardSwitcher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
